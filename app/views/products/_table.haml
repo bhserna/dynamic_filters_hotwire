@@ -1,0 +1,12 @@
+= turbo_frame_tag "table" do
+  %div{class: styles.loading.container}
+    %div{class: styles.loading.element} Loading...
+  %div{class: styles.table.container}
+    %table{class: styles.table.table}
+      %thead
+        %tr
+          %th{class: styles.table.title} Name
+          %th{class: styles.table.title} Category
+          %th{class: styles.table.title} Price
+      %tbody{class: styles.table.body}
+        = render products
