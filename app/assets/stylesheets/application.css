@@ -16,3 +16,6 @@
 
 turbo-frame .on-busy { display: none; }
 turbo-frame[busy] .on-busy { display: block; }
+
+.pagy-nav { padding: 2rem 0; }
+.pagy-nav .page { padding: 0 0.25rem; }

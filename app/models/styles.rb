@@ -7,14 +7,11 @@ Styles = Styler.new do
     style :element, %w(silver on-busy)
   end
 
-  collection :form do
-    style :container, %w(mt4 mb3 flex)
+  collection :filters do
+    style :container, %w(mt4 mb2 flex)
     style :group, %w(mr3)
-    style :input, %w(input-reset h2 ba mv2 b--black-20 pa2 mb2 db w-100)
-    style :select, %w(ba b--black-20 h2 mv2 pa2 mb2 db w-100)
-
-    style :input, %w(h2 ba b--black-30 br1 pa2 ma1)
-    style :select, %w(h2 ba b--black-30 br1 pa2 ma1)
+    style :input, %w(input-reset ba b--black-20 mv2 pa2 br1 db w-100)
+    style :select, [input]
   end
 
   collection :table do
