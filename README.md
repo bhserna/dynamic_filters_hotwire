@@ -7,4 +7,6 @@ turbo and stimulus.js from hotwire.
 * Ruby version: 3.0.0
 * Rails version: 7.0.0.rc1
 
-[![Dynamic Filters with Rails and Hotwire - Watch Video](https://cdn.loom.com/sessions/thumbnails/76e7527ec19b4f678303c7352d4d4b0d-with-play.gif)](https://www.loom.com/share/76e7527ec19b4f678303c7352d4d4b0d)]
+<a href="https://www.loom.com/share/76e7527ec19b4f678303c7352d4d4b0d">
+  <p>Dynamic Filters with Rails and Hotwire - Watch Video</p>
+</a>
