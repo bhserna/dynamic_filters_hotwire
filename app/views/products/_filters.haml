@@ -14,5 +14,3 @@
     = f.label :search, "Search"
     = f.text_field :search,
       { value: params[:search], class: styles.filters.input, data: { action: "filters#submit" } }
-
-  = f.button "Submit", class: styles.hidden, data: { filters_target: "btn" }

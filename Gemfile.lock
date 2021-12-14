@@ -111,7 +111,7 @@ GEM
       reline (>= 0.2.7)
     jbuilder (2.11.3)
       activesupport (>= 5.0.0)
-    loofah (2.12.0)
+    loofah (2.13.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -203,7 +203,7 @@ GEM
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
-    turbo-rails (7.1.0)
+    turbo-rails (0.9.0)
       rails (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -244,9 +244,9 @@ DEPENDENCIES
   rexml
   rspec-rails
   sprockets-rails
-  stimulus-rails (>= 0.4.0)
+  stimulus-rails (>= 0.7)
   styler!
-  turbo-rails (>= 0.7.11)
+  turbo-rails (~> 0.9)
   tzinfo-data
   web-console (>= 4.1.0)
   webdrivers
