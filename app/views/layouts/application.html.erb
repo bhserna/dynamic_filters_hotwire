@@ -6,12 +6,11 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 
     <%= javascript_importmap_tags %>
   </head>
 
-  <body class="<%= styles.body %>">
+  <body>
     <%= yield %>
   </body>
 </html>

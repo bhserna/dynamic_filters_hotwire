@@ -14,8 +14,63 @@
  *= require_self
  */
 
-turbo-frame .on-busy { display: none; }
-turbo-frame[busy] .on-busy { display: block; }
+body {
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  max-width: 64rem;
+}
+
+.loading-container { height: 2rem; }
+turbo-frame .loading-element { display: none; }
+turbo-frame[busy] .loading-element { display: block; }
+
+.filters-container {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+.filters-group { margin-right: 1rem; }
+.filters-group input,
+.filters-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: rgba(0,0,0,.2) 1px solid;
+  border-radius: 2px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+}
+
+.table-container { overflow: auto; }
+table {
+  font-size: 0.875rem;
+  width: 100%;
+}
+tbody {
+  line-height: 1.5;
+}
+th {
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  background-color: #fff;
+  font-weight: 600;
+  border-color: rgba(0,0,0,.2);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  border-color: rgba(0,0,0,.2);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
 
 .pagy-nav { padding: 2rem 0; }
 .pagy-nav .page { padding: 0 0.25rem; }

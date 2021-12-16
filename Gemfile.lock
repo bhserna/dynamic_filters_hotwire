@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/bhserna/styler.git
-  revision: 424c90f71e6a737c753c7ef107d0bc7c9e28510b
-  branch: main
-  specs:
-    styler (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -245,7 +238,6 @@ DEPENDENCIES
   rspec-rails
   sprockets-rails
   stimulus-rails (>= 0.7)
-  styler!
   turbo-rails (~> 0.9)
   tzinfo-data
   web-console (>= 4.1.0)

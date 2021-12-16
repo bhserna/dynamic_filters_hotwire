@@ -1,16 +1,16 @@
 = form_with(url: products_path,
-  class: styles.filters.container,
+  class: "filters-container",
   method: :get,
   data: { controller: "filters", filters_target: "form", turbo_frame: "table" }) do |f|
 
-  %div{class: styles.filters.group}
+  .filters-group
     = f.label :category, "Filter by category"
     = f.select :category,
       options_for_select(Product.categories.keys, params[:category]),
       { include_blank: true },
-      { class: styles.filters.select, data: { action: "filters#submit" } }
+      { data: { action: "filters#submit" } }
 
-  %div{class: styles.filters.group}
+  .filters-group
     = f.label :search, "Search"
     = f.text_field :search,
-      { value: params[:search], class: styles.filters.input, data: { action: "filters#submit" } }
+      { value: params[:search], data: { action: "filters#submit" } }
